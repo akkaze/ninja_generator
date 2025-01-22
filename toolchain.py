@@ -160,7 +160,7 @@ class Toolchain(object):
 
     def initialize_project(self, project):
         self.project = project
-        version.generate_version(self.project, self.project)
+        #version.generate_version(self.project, self.project)
 
     def initialize_archs(self, archs):
         self.archs = list(archs)
